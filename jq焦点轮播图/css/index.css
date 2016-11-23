@@ -1,0 +1,67 @@
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			li{
+				list-style: none;
+			}
+			.wrap{
+				width: 730px;
+				height: 454px;
+				margin: 50px auto;
+				position: relative;
+			}
+			.wrap .img li{
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: none;
+			}
+			.wrap .menu{
+				position: absolute;
+				bottom:20px;
+				left: 0;
+				font-size: 0px;
+				text-align: center;
+				width: 100%;
+			}
+			.wrap .menu li{
+				width: 20px;
+				height: 20px;
+				background: #666;
+				color: #fff;
+				text-align: center;
+				line-height: 20px;
+				border-radius: 50%;
+				display: inline-block;
+				font-size:16px;
+				margin: 0 3px;
+				cursor: pointer;/*改变光标为手抓形*/
+			}
+			.wrap .menu li.active{
+				background: #a00;
+				
+			}
+			.wrap .but{
+				position: absolute;
+				top: 50%;
+				width: 30px;
+				height: 60px;
+				margin-top:-30px;
+				background: rgba(0,0,0,0.5);
+				color: #FFFFFF;
+				text-align: center;
+				line-height: 60px;
+				font-size: 40px;
+				display: none;
+				cursor: pointer;
+			}
+			.wrap:hover .but{
+				display: block;
+			}
+			.wrap .left{
+				left: 0;
+			}
+			.wrap .rigth{
+				right: 0;
+			}
